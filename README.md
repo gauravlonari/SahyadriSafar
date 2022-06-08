@@ -13,3 +13,7 @@ The Website includes various parts:
 2. Photo Gallery
 3. User Profile (Including sign in and sign up pages)
 4. Support Us
+
+Rights are Reserved as per following:
+  1. Images are used by the rights granted by the owner- Nisarg Navale
+  2. FontAwesome Icons are used by the freeware license. <a href="https://fontawesome.com/license/free" >Refer Here</a>
