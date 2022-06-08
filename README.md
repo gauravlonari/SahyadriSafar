@@ -15,6 +15,10 @@ The Website includes various parts:
 4. User Profile (Including sign in and sign up pages)
 5. Support Us
 
+To pull and execute this project:
+  1. Clone this repository
+  2. Extract the Res/fAwesome.rar file (Res folder should include fAwesome directory)
+
 Rights are Reserved as per following:
   1. Images are used by the rights granted by the owner- Nisarg Navale
   2. FontAwesome Icons are used by the freeware license. <a target="_blank" href="https://fontawesome.com/license/free" >Refer Here</a>
