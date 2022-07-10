@@ -17,7 +17,7 @@ The Website includes various parts:
 
 To pull and execute this project:
   1. Clone this repository
-  2. Extract the Res/fAwesome.rar file (Res folder should include fAwesome directory)
+  2. run index.html
 
 Rights are Reserved as per following:
   1. Images are used by the rights granted by the owner- Nisarg Navale
