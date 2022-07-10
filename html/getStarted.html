@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,4 +120,127 @@
         <p class="copyright">&copy;SahyadriSafar.in</p>
     </div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start your Journey</title>
+    <link href="../Res/fAwesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Res/Fonts/Ubuntu.css"/>
+    <script src="https://kit.fontawesome.com/6cc189bfac.js" crossorigin="anonymous"></script>
+    <script src="../js/validLogin.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/logo.js"></script>
+    <script src="../js/getStarted.js"></script>
+    <link rel="stylesheet" href="../css/getStarted.css"/>
+</head>
+<body>
+    <div class="header" id="header">
+        <a href="../index.html"><img src="../Res/Photos/logo.png" class="logo" id="logo"></a>
+        <ul class="Tabs" id="Tabs">
+            <li style="border-left:none;"><a href="../index.html" class="tab">Home</a></li>
+            <!-- <li><a href="../html/getStarted.html" class="tab" title="Start your Journey">Book Trek</a></li> -->
+            <li><a href="../html/gallery.html" class="tab" title="View Gallery">Gallery</a></li>
+            <li><a href="../html/support.html" class="tab" title="Get in Touch">Support</a></li>
+            <li><a onclick="loginUser()" class="tab" id="profileTab" title="Login">Login</a></li>
+        </ul>
+    </div>
+    <div class="BookingContainer">
+        <form name="booking">
+            <div class="section">
+                <p class="sectionHeading">Enter your Details:</p>
+                <div class="innerSection">
+                    <label for="contact">Enter Mobile Number:</label>
+                    <input type="number" name="contact" id="contactInput">
+                    <br>
+                    <label for="address">Enter House No./Village/Street Name:</label>
+                    <input type="text" name="address" id="addressInput">
+                    <br>
+                    <label for="Noc">Number of People Joining you:(Excluding You)</label>
+                    <input type="number" name="NoC" id="NoC">
+                    <br>
+                </div>
+            </div>
+            <div class="section">
+                <p class="sectionHeading">Select Plan:</p>
+                <div class="innerSection planradios">
+                    <p class="planRadio">
+                        <input type="radio" checked name="plan" value="Standard" onchange="loadTreks()">Standard
+                    </p>
+                    <p class="planRadio">
+                        <input type="radio" name="plan" value="Silver" onchange="loadTreks()">Silver
+                    </p>
+                    <p class="planRadio">
+                        <input type="radio" name="plan" value="Gold" onchange="loadTreks()">Gold
+                    </p>
+                </div>
+            </div>
+            <div class="section">
+                <p class="sectionHeading">Select Trek:</p>
+                <div class="innerSection">
+                    <select name="selectedTrek" id="selectedTrek">
+                        <option value="1">Railing Pathar</option>
+                        <option value="2">Katraj to sinhgad</option>
+                        <option value="3">Jeevdhan Fort Trek</option>
+                        <option value="4">Rajmachi Trek</option>
+                        <option value="5">Raigad Trek</option>
+                        <option value="6">Panshet lake Camping</option>
+                        <option value="7">Pawana lake Camping</option>
+                        <option value="8">Tikona Fort</option>
+                        <option value="9">Hadar Fort</option>
+                        <option value="10">Shivneri Fort</option>
+                    </select>
+                </div>
+            </div>
+            <div class="section">
+                <p class="sectionHeading">Go Back if Informatiion Below is not Correct:</p>
+                <div class="innerSection">
+                    <p class="infoIdentifier">Name: </p>
+                    <p id="Name"></p>
+                    <br>
+                    <p class="infoIdentifier">E-mail: </p>
+                    <p id="Username"></p>
+                    <br>
+                    <p class="infoIdentifier">Contact: </p>
+                    <p id="contact"></p>
+                    <br>
+                    <p class="infoIdentifier">Address </p>
+                    <p id="address"></p>
+                    <br>
+                    <p class="infoIdentifier">Number of People: </p>
+                    <p id="NoP"></p>
+                    <br>
+                    <p class="infoIdentifier">Trek Plan: </p>
+                    <p id="trekPlan"></p>
+                    <br>
+                    <p class="infoIdentifier">Treak Name: </p>
+                    <p id="trekName"></p>
+                    <br>
+                    <p class="infoIdentifier">Trek Start Location: </p>
+                    <p id="trekStartLocation"></p>
+                    <br>
+                    <p class="infoIdentifier">Reporting Time: </p>
+                    <p id="reportingTime:"></p>
+                    <br>
+                </div>
+            </div>
+            <a onclick="nextStep();" class="nextButtons">Submit Here</a>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footerContent">
+            <!-- <a href="../html/getStarted.html">Book Tour</a> -->
+            <a href="../html/gallery.html">Gallery</a>
+            <!-- <a href="#">Features</a> -->
+            <!-- <a href="#">Plans</a> -->
+            <a href="../html/support.html" style="border-bottom: none;">Support</a>
+        </div>
+        <hr>
+        <p class="copyright">&copy;SahyadriSafar.in</p>
+    </div>
+</body>
+>>>>>>> 8844580ac25f9d27751a40509cbdb86d18c67c93
 </html>

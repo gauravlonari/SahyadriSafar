@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin:0px;
     padding:0;
@@ -225,3 +226,232 @@ div.footerContent a:hover{
     color:red;
     border-bottom-color: white;
 }
+=======
+*{
+    margin:0px;
+    padding:0;
+    font-family: 'ubunturegular',sans-serif,Arial;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 200ms ease-in all;
+    cursor: default;
+    user-select: none;
+}
+body{
+    background: darkslategrey;
+}
+p{
+    cursor:default;
+}
+a,i{
+    cursor:pointer;
+}
+.header{
+    width: 100%;
+    height: 61px;
+    /* border: 1px; */
+    /* border-bottom-left-radius: 13px; */
+    /* border-bottom-right-radius: 13px; */
+    position: fixed;
+    background: #0a476b;
+    z-index: 100;
+    color: white;
+    box-shadow: 0 6px 13px black;
+}
+.logo{
+    width: 15%;
+    position: absolute;
+    left: 85px;
+    background: linear-gradient(to bottom,#ff7272 44%,#27303d00);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 5px;
+    padding-top:7px;
+    z-index: 101;
+    transition: 500ms ease;
+    cursor: pointer;
+}
+.Tabs{
+    list-style-type: none;
+    float: right;
+    position: relative;
+    display:flex;
+    right: 4%;
+    top: 25%;
+    font-size: 150%;
+}
+.Tabs li{
+    display:inline;
+    border-left:1px solid;
+}
+.Tabs li a.tab{
+    padding: 7px 13px;
+    margin: 0px 0%;
+    transition: 0.1s ease-in;
+    color:white;
+}
+
+.Tabs li a.tab:hover{
+    border-bottom: 4px solid white;
+    color:crimson;
+}
+.SafarGallery{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 100%;
+}
+p.GalleryTitle{
+    display:block;
+    font-size:xxx-large;
+    color:maroon; 
+    font-family:fantasy;   
+}
+.notify{
+    color: white;
+    position: relative;
+    left: -24%;
+    font-size: larger;
+    -webkit-text-stroke: 0.5px black;
+    margin-top: 0.5%;
+    display: inline-block;
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+div.galleryContainer{
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid; */
+    width: 100%;
+    /* height: 100%; */
+    min-height: 100vh;;
+    justify-content: center;
+    align-content: flex-start;
+    /* margin-bottom: 5%; */
+    padding:0 5%;
+}
+div.galleryContainer img{
+    height: 230px;
+    width: auto;
+    opacity: 0.9;
+    border-radius: 4px;
+    padding: 2px;
+    background: white;
+    margin: 1px 1px;
+}
+div.galleryContainer img:hover{
+    opacity:1;
+}
+a.moreBtn {
+    text-decoration:none;
+    margin-top: 20px;
+    padding: 5px 75px;
+    border-radius: 25px;
+    font-size: x-large;
+    cursor: pointer;
+    background: transparent;
+    border: 3px solid darkgrey;
+    display: inline-block;
+}
+a.moreBtn:hover{
+    background:white;
+}
+div.noBgView{
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index: 99;
+    display:none;
+}
+div.viewImage{
+    background: white;
+    position: fixed;
+    left: 10vw;
+    top: 16%;
+    /* border: 1px solid black; */
+    height: 80vh;
+    width: fit-content;
+    min-width: 80vw;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 19px 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img#view{
+    height: 70vh;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    /* box-shadow: black 0px 0px 30px 10px; */
+}
+p.close{
+    font-size: xx-large;
+    color: crimson;
+    -webkit-text-stroke: 2px black;
+    font-family: cursive;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 0px;
+}
+p.close:hover{
+    color:grey;
+}
+p.imageCopyright{
+    font-family: 'ubunturegular';
+    font-size: large;
+    position: absolute;
+    left: 35px;
+    bottom: 10px;
+    font-style: oblique;
+}
+div.footer{
+    position: relative;
+    bottom: 0px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background: #00000091;
+    font-family: sans-serif;
+    padding-bottom: 45px;
+    margin-top: 8%;
+}
+div.footer p.copyright{
+    font-family: 'ubunturegular';
+    font-size:x-large;
+}
+div.footer hr{
+    margin:10px 0;
+}
+div.footerContent{
+    display:flex;
+    flex-flow:column nowrap;
+}
+div.footerContent a{
+    text-decoration: none;
+    font-size: x-large;
+    padding: 5px 0px;
+    border-bottom: 1px solid;
+    margin: 0 40%;
+    color:white;
+}
+div.footerContent a:hover{
+    color:red;
+    border-bottom-color: white;
+}
+>>>>>>> 8844580ac25f9d27751a40509cbdb86d18c67c93
