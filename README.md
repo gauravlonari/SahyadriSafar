@@ -20,7 +20,7 @@ To pull and execute this project:
   2. run index.html
 
 Rights are Reserved as per following:
-  1. Images are used by the rights granted by the owner- Nisarg Navale <a href="https://instagram.com/heyy_nisarg">Instagram Here</a>
+  1. Images are used by the rights granted by the owner- Nisarg Navale <a target="_blank" href="https://instagram.com/heyy_nisarg">( Instagram )</a>
   2. FontAwesome Icons are used by the freeware license. <a target="_blank" href="https://fontawesome.com/license/free" >Refer Here</a>
   3. Fonts used are by the open source license provided by Google developers. <a target="_blank" href="https://developers.google.com/fonts" >Refer Here</a>
 
