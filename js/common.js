@@ -1,14 +1,3 @@
-const firebaseConfig = {
-    apiKey: "AIzaSyCqCYr9X6lY_Rcv1OKASqAhrqeWJbzEfqc",
-    authDomain: "sahyadri-safar.firebaseapp.com",
-    databaseURL: "https://sahyadri-safar-default-rtdb.firebaseio.com",
-    projectId: "sahyadri-safar",
-    storageBucket: "sahyadri-safar.appspot.com",
-    messagingSenderId: "38742511676",
-    appId: "1:38742511676:web:c931dcb06f10f983597339",
-    measurementId: "G-CFV1G0PVP4"
-  };
-
 document.addEventListener("contextmenu", function(e){e.preventDefault();popupWindow("No-Context Window","Right Click is Disabled.");}, false);
 var popwin,qry;
 function popupWindow(titletext,text){

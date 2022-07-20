@@ -4,7 +4,7 @@ window.onscroll=function(){
 window.onload=function(){
     LoginDB();
     visitedCookie();
-    RotateBanner();
+    startSlideShow();
 }
 let scrollFactor =300;
 scrollFactor-=8;
@@ -271,20 +271,20 @@ function explore(plan){
 function hideView(){
     document.getElementById("noBgView").style.display="none";
 }
-// var current=0;
-// var highlightArray=new Array("/Res/Photos/Gallery/gallery (20).jpg","/Res/Photos/Gallery/gallery (22).jpg","/Res/Photos/Gallery/gallery (31).jpg","/Res/Photos/Gallery/gallery (17).jpg","/Res/Photos/Gallery/gallery (9).jpg");
+function startSlideShow(){RotateBanner();}
+function stopSlideShow(){
+    if(slideShow!=null){
+        clearTimeout(slideShow);
+    }
+}
+var slideShow;
 function RotateBanner(){
     var Banner=document.getElementById("highlightImage");
-    // if(current>=highlightArray.length)
-    //     current=0;
-    // Banner.src=highlightArray[current];
-    // current++;
     let imgName="Res/Photos/Gallery/gallery ("+(Math.floor(Math.random()*40)+1)+").jpg";
     Banner.src=imgName;
-    // Banner.alt=imgName;
-    setTimeout("RotateBanner()",1000);
+    slideShow=setTimeout("RotateBanner()",1000);
 }
 function viewImgInGallery(img){
-    var src=img.substring(img.lastIndexOf("gallery"));
+    var src=img.substring(img.lastIndexOf("gallery"));  
     window.location.href="html/gallery.html?imgName="+src+"&newvalue=Dominic";
 }
