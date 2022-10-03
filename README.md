@@ -1,5 +1,5 @@
 # SahyadriSafar
-Sahyadri Safar is a trek and tour booking site which emphasis various glamorous parts of Sahyadri.
+Sahyadri Safar is a trek and tour booking site which emphasis trips to various glamorous parts of Sahyadri.
 
 It is a semi-functional trek booking website developed in HTML5, CSS3 and Vanilla Javascript. The looks of the websites are great.
 The Website includes various parts:
