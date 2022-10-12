@@ -17,7 +17,7 @@ The Website includes various parts:
 
 To pull and execute this project:
   1. Clone this repository
-  2. run index.html
+  2. Run index.html
 
 Rights are Reserved as per following:
   1. Images are used by the rights granted by the owner- Nisarg Navale ( <a target="_blank" href="https://instagram.com/heyy_nisarg">Instagram</a> )
@@ -26,10 +26,11 @@ Rights are Reserved as per following:
 
 Screenshots: <br />
 
-![image](https://user-images.githubusercontent.com/63186413/195269951-0f3238e3-0a54-4722-9d82-a710ef25766a.png)
+
 ![image](https://user-images.githubusercontent.com/63186413/195269933-8aeb6f7d-a90d-42c5-bf26-bc178943d5d4.png)
+![image](https://user-images.githubusercontent.com/63186413/195269951-0f3238e3-0a54-4722-9d82-a710ef25766a.png)
 ![image](https://user-images.githubusercontent.com/63186413/195269980-513329a2-0700-470f-b255-58d5ae5a0f33.png)
 ![image](https://user-images.githubusercontent.com/63186413/195269964-23f58a15-05ec-4922-ad5d-631b0be7cd89.png)
-![image](https://user-images.githubusercontent.com/63186413/195269999-bc7c5bd7-ffd8-47e0-bc1b-1494e1ad02de.png)
 ![image](https://user-images.githubusercontent.com/63186413/195270013-26748245-8793-4d4e-9968-bead10cdb4fd.png)
 ![image](https://user-images.githubusercontent.com/63186413/195270025-4426173e-0d59-46c9-b85b-34db540f84dd.png)
+![image](https://user-images.githubusercontent.com/63186413/195269999-bc7c5bd7-ffd8-47e0-bc1b-1494e1ad02de.png)
