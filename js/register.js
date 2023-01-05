@@ -5,8 +5,8 @@ else{
     visitedCookie();
 }
 window.onload=function (){
-    document.forms.login.addEventListener("keypress",function(event){
+    document.forms.register.addEventListener("keypress",function(event){
         if(event.keyCode == 13)
-        document.querySelector("button.loginBtn").click();
+        document.querySelector("button.registerBtn").click();
     });
 }

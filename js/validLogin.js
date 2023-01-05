@@ -1,6 +1,6 @@
 function LoginDB(){
-    localStorage.setItem("validUser","lgaurav37@gmail.com nisargnavale3131@gmail.com");
-    localStorage.setItem("validPass","Lgaurav@77 nnavale");
+    localStorage.setItem("validUser","gauravlonari@gmail.com nisargnavale@gmail.com");
+    localStorage.setItem("validPass","gauravlonari nisargnavale");
     localStorage.setItem("validName","Gaurav Lonari Nisarg Navale");
     if(sessionStorage.getItem("userLoggedInFlag")=="false"){
         sessionStorage.setItem("userLoggedInFlag","false");

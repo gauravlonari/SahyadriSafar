@@ -60,13 +60,13 @@ div.container{
     align-items: center;
 }
 
-.login-container{
+.register-container{
     height: 95%;
     order: 3;
     display: inline-flex;
     align-items: center;
 }
-form.login{  
+form.register{  
     display: flex;
     flex-flow: column nowrap;
     background:#f0f2f5;
@@ -117,7 +117,7 @@ div.vertical-align{
     /* height: calc(100vh - 90px); */
     height: 100vh;
 }
-button.loginBtn{
+button.registerBtn{
     text-align: center;
     background-color: #1877f2;
     border: none;
@@ -129,11 +129,11 @@ button.loginBtn{
     margin-top: 8px;
     color:white;
 }
-button.loginBtn:hover {
+button.registerBtn:hover {
     outline: none;
     background-color: #0e73f7;
 }
-button.loginBtn:active {
+button.registerBtn:active {
     background-color: #0059cc;
 }
 a.frgot{
@@ -154,8 +154,8 @@ p.createque{
     font-size: large;
     margin-bottom: 7px;
 }
-div.createContainer{
-    text-align: center;
+div.leftContainer{
+    text-align: left;
     padding-top:6px;
 }
 button.create:active {
@@ -186,8 +186,4 @@ p.inputError{
     text-align: left;
     margin-bottom: 12px;
     padding: 0px 15px;
-}
-div.leftContainer{
-    text-align: left;
-    padding-top:6px;
 }

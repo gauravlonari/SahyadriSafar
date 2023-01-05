@@ -1,6 +1,6 @@
-import {app} from "./firebaseApp.js";
-import { getFirestore, addDoc, collection } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-firestore.js";
-const db = getFirestore(app);
+// import {app} from "./firebaseApp.js";
+// import { getFirestore, addDoc, collection } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-firestore.js";
+// const db = getFirestore(app);
 // try {
 //     const docRef = await addDoc(collection(db, "Users"), {
 //         first: "Gaurav",
@@ -19,7 +19,11 @@ document.querySelector(".loginBtn").addEventListener("click",function(){
     if(!emailexp.test(document.forms.login.username.value)){
         inputError.innerHTML="Enter Valid E-mail Address.";
     }
+    else if(document.forms.login.password.value.length < 6 ){
+        inputError.innerHTML="Enter a valid password.";
+    }
     else{
+        inputError.innerHTML="";
         var localus,localps;
         localus=localStorage.getItem("validUser");
         localps=localStorage.getItem("validPass");
@@ -39,5 +43,4 @@ document.querySelector(".loginBtn").addEventListener("click",function(){
             inputError.innerHTML="Username or Password you entered is incorrect."
         }
     }
-
-})
+});

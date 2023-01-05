@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="../Res/fAwesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Res/Fonts/Ubuntu.css"/>
+    <script src="https://kit.fontawesome.com/6cc189bfac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/common.js"></script>
+    <script type="module" src="../modules/firebaseApp.js"></script>
+    <script src="../js/register.js"></script>
+    
+</head>
+<body>
+    <!-- <div class="header" id="header">
+        <a href="../index.html"><img src="../Res/Photos/logo.png" class="logo" id="logo"></a>
+    </div> -->
+    <div class="vertical-align">
+        <div class="image-container">
+            <img class="login-image" src="../Res/Photos/loginSide.jpg">
+        </div>
+        <!-- <div class="v_line"></div> -->
+        <div class="register-container">
+            <form name="register" class="register" autocomplete="off">
+                <div class="horzLine"></div>
+                <div class="leftContainer"><p class="createque"> &nbsp;&nbsp;Fill in following Details:</p></div>
+                <input class="inData" type="text" name="fname" placeholder="First Name"/>
+                <input class="inData" type="text" name="lname" placeholder="Last Name"/>
+                <input class="inData" type="number" name="age" placeholder="Age" min="0" max="80"/>
+                <input class="inData" type="number" name="mobile" placeholder="Mobile Number" min="7000000000" max="9999999999"/>
+
+                <!-- <div class="horzLine"></div> --><br/>
+                <input class="inData" type="text" name="username" placeholder="Email address"/>
+                <input class="inData" type="password" name="password" placeholder="Password"/>
+                
+                <p id="inputError" class="inputError" name="inputError"></p>
+                <button class="registerBtn" type="button">Log In</button>
+                <div class="horzLine"></div>
+                </form>
+            </div>
+        </div>
+        <script src="../modules/registerOps.js" type="module"></script>
+    </body>
+</html>

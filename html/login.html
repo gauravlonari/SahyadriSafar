@@ -23,15 +23,17 @@
         </div>
         <!-- <div class="v_line"></div> -->
         <div class="login-container">
-            <form name="login" class="login">
-                <p id="inputError" class="inputError" name="inputError"></p>
-                <input class="inData" type="text" name="username" placeholder="Email address or Phone number">
+            <form name="login" class="login" autocomplete="off">
+                <div class="horzLine"></div>
+                <div class="leftContainer"><p class="createque">Enter Email and Password:</p></div>
+                <input class="inData" type="text" name="username" placeholder="Email address">
                 <input class="inData" type="password" name="password" placeholder="Password">
-                <a class="loginBtn">Log In</a>
+                <p id="inputError" class="inputError" name="inputError"></p>
+                <button class="loginBtn" type="button">Log In</button>
                 <a class="frgot">Forgotten password?</a>
                 <div class="horzLine"></div>
                 <p class="createque">Don't have an Account, Register Now</p>
-                <div class="createContainer"><a class="create">Create New Account</a>
+                <div class="createContainer"><a href="register.html" class="create">Create New Account</a></div>
                 </form>
             </div>
         </div>
